@@ -1,0 +1,181 @@
+,team,position,market_value
+0,Athletic Bilbao,Attacking Midfield,36000000.0
+1,Athletic Bilbao,Central Midfield,34500000.0
+2,Athletic Bilbao,Centre-Back,48400000.0
+3,Athletic Bilbao,Centre-Forward,32500000.0
+4,Athletic Bilbao,Defensive Midfield,3000000.0
+5,Athletic Bilbao,Goalkeeper,30000000.0
+6,Athletic Bilbao,Left Winger,4000000.0
+7,Athletic Bilbao,Left-Back,4200000.0
+8,Athletic Bilbao,Right Winger,37000000.0
+9,Athletic Bilbao,Right-Back,7300000.0
+10,Atlético de Madrid,Attacking Midfield,35000000.0
+11,Atlético de Madrid,Central Midfield,115000000.0
+12,Atlético de Madrid,Centre-Back,83000000.0
+13,Atlético de Madrid,Centre-Forward,55000000.0
+14,Atlético de Madrid,Defensive Midfield,25000000.0
+15,Atlético de Madrid,Goalkeeper,43500000.0
+16,Atlético de Madrid,Left Winger,40000000.0
+17,Atlético de Madrid,Left-Back,50000000.0
+18,Atlético de Madrid,Right Winger,40000000.0
+19,Atlético de Madrid,Right-Back,20000000.0
+20,Atlético de Madrid,Second Striker,105000000.0
+21,CA Osasuna,Attacking Midfield,6000000.0
+22,CA Osasuna,Central Midfield,14400000.0
+23,CA Osasuna,Centre-Back,23000000.0
+24,CA Osasuna,Centre-Forward,17800000.0
+25,CA Osasuna,Defensive Midfield,5000000.0
+26,CA Osasuna,Goalkeeper,11100000.0
+27,CA Osasuna,Left Winger,24200000.0
+28,CA Osasuna,Left-Back,12000000.0
+29,CA Osasuna,Right Winger,3000000.0
+30,CA Osasuna,Right-Back,7500000.0
+31,Celta de Vigo,Attacking Midfield,17000000.0
+32,Celta de Vigo,Central Midfield,22000000.0
+33,Celta de Vigo,Centre-Back,22000000.0
+34,Celta de Vigo,Centre-Forward,21000000.0
+35,Celta de Vigo,Defensive Midfield,10000000.0
+36,Celta de Vigo,Goalkeeper,5200000.0
+37,Celta de Vigo,Left Winger,5000000.0
+38,Celta de Vigo,Left-Back,12000000.0
+39,Celta de Vigo,Right Winger,8500000.0
+40,Celta de Vigo,Right-Back,6000000.0
+41,Cádiz CF,Attacking Midfield,5000000.0
+42,Cádiz CF,Central Midfield,4000000.0
+43,Cádiz CF,Centre-Back,7100000.0
+44,Cádiz CF,Centre-Forward,10000000.0
+45,Cádiz CF,Defensive Midfield,8800000.0
+46,Cádiz CF,Goalkeeper,6800000.0
+47,Cádiz CF,Left Winger,7800000.0
+48,Cádiz CF,Left-Back,6800000.0
+49,Cádiz CF,Right Winger,3200000.0
+50,Cádiz CF,Right-Back,5500000.0
+51,FC Barcelona,Central Midfield,268000000.0
+52,FC Barcelona,Centre-Back,176000000.0
+53,FC Barcelona,Centre-Forward,70000000.0
+54,FC Barcelona,Defensive Midfield,9000000.0
+55,FC Barcelona,Goalkeeper,35700000.0
+56,FC Barcelona,Left Winger,100000000.0
+57,FC Barcelona,Left-Back,29000000.0
+58,FC Barcelona,Right Winger,100000000.0
+59,FC Barcelona,Right-Back,26000000.0
+60,Getafe CF,Central Midfield,32500000.0
+61,Getafe CF,Centre-Back,28800000.0
+62,Getafe CF,Centre-Forward,44000000.0
+63,Getafe CF,Defensive Midfield,12000000.0
+64,Getafe CF,Goalkeeper,9000000.0
+65,Getafe CF,Left-Back,8000000.0
+66,Getafe CF,Right Winger,6000000.0
+67,Getafe CF,Right-Back,4000000.0
+68,Girona FC,Attacking Midfield,10300000.0
+69,Girona FC,Central Midfield,18000000.0
+70,Girona FC,Centre-Back,7800000.0
+71,Girona FC,Centre-Forward,13500000.0
+72,Girona FC,Defensive Midfield,6600000.0
+73,Girona FC,Goalkeeper,2600000.0
+74,Girona FC,Left Winger,6500000.0
+75,Girona FC,Left-Back,10500000.0
+76,Girona FC,Right Winger,4800000.0
+77,Girona FC,Right-Back,11000000.0
+78,RCD Espanyol Barcelona,Central Midfield,23500000.0
+79,RCD Espanyol Barcelona,Centre-Back,8800000.0
+80,RCD Espanyol Barcelona,Centre-Forward,13500000.0
+81,RCD Espanyol Barcelona,Defensive Midfield,4500000.0
+82,RCD Espanyol Barcelona,Goalkeeper,9400000.0
+83,RCD Espanyol Barcelona,Left Winger,18000000.0
+84,RCD Espanyol Barcelona,Left-Back,9500000.0
+85,RCD Espanyol Barcelona,Right-Back,5000000.0
+86,RCD Mallorca,Attacking Midfield,10200000.0
+87,RCD Mallorca,Central Midfield,7800000.0
+88,RCD Mallorca,Centre-Back,9900000.0
+89,RCD Mallorca,Centre-Forward,18500000.0
+90,RCD Mallorca,Defensive Midfield,1800000.0
+91,RCD Mallorca,Goalkeeper,11300000.0
+92,RCD Mallorca,Left Winger,3200000.0
+93,RCD Mallorca,Left-Back,2400000.0
+94,RCD Mallorca,Right-Back,6500000.0
+95,Rayo Vallecano,Attacking Midfield,8200000.0
+96,Rayo Vallecano,Central Midfield,15000000.0
+97,Rayo Vallecano,Centre-Back,10100000.0
+98,Rayo Vallecano,Centre-Forward,19200000.0
+99,Rayo Vallecano,Goalkeeper,5100000.0
+100,Rayo Vallecano,Left Winger,6800000.0
+101,Rayo Vallecano,Left-Back,8300000.0
+102,Rayo Vallecano,Right Winger,7000000.0
+103,Rayo Vallecano,Right-Back,2800000.0
+104,Real Betis Balompié,Attacking Midfield,67000000.0
+105,Real Betis Balompié,Central Midfield,2500000.0
+106,Real Betis Balompié,Centre-Back,32500000.0
+107,Real Betis Balompié,Centre-Forward,36000000.0
+108,Real Betis Balompié,Defensive Midfield,45000000.0
+109,Real Betis Balompié,Goalkeeper,18000000.0
+110,Real Betis Balompié,Left Winger,15000000.0
+111,Real Betis Balompié,Left-Back,23000000.0
+112,Real Betis Balompié,Right Winger,13500000.0
+113,Real Betis Balompié,Right-Back,7500000.0
+114,Real Madrid,Central Midfield,179000000.0
+115,Real Madrid,Centre-Back,165000000.0
+116,Real Madrid,Centre-Forward,34000000.0
+117,Real Madrid,Defensive Midfield,80000000.0
+118,Real Madrid,Goalkeeper,62500000.0
+119,Real Madrid,Left Winger,132000000.0
+120,Real Madrid,Left-Back,40000000.0
+121,Real Madrid,Right Winger,117000000.0
+122,Real Madrid,Right-Back,28000000.0
+123,Real Sociedad,Attacking Midfield,7000000.0
+124,Real Sociedad,Central Midfield,80000000.0
+125,Real Sociedad,Centre-Back,71000000.0
+126,Real Sociedad,Centre-Forward,53000000.0
+127,Real Sociedad,Defensive Midfield,38000000.0
+128,Real Sociedad,Goalkeeper,22300000.0
+129,Real Sociedad,Left Winger,70500000.0
+130,Real Sociedad,Left-Back,9000000.0
+131,Real Sociedad,Right Winger,9000000.0
+132,Real Sociedad,Right-Back,11500000.0
+133,Real Valladolid CF,Central Midfield,11500000.0
+134,Real Valladolid CF,Centre-Back,9000000.0
+135,Real Valladolid CF,Centre-Forward,13700000.0
+136,Real Valladolid CF,Defensive Midfield,3000000.0
+137,Real Valladolid CF,Goalkeeper,4700000.0
+138,Real Valladolid CF,Left Winger,7000000.0
+139,Real Valladolid CF,Left-Back,4300000.0
+140,Real Valladolid CF,Right Winger,9300000.0
+141,Real Valladolid CF,Right-Back,2650000.0
+142,Sevilla FC,Attacking Midfield,7500000.0
+143,Sevilla FC,Central Midfield,40000000.0
+144,Sevilla FC,Centre-Back,28000000.0
+145,Sevilla FC,Centre-Forward,53000000.0
+146,Sevilla FC,Defensive Midfield,8000000.0
+147,Sevilla FC,Goalkeeper,23000000.0
+148,Sevilla FC,Left Winger,6000000.0
+149,Sevilla FC,Left-Back,36000000.0
+150,Sevilla FC,Right Winger,53000000.0
+151,Sevilla FC,Right-Back,22000000.0
+152,UD Almería,Central Midfield,12000000.0
+153,UD Almería,Centre-Back,16400000.0
+154,UD Almería,Centre-Forward,8700000.0
+155,UD Almería,Defensive Midfield,7000000.0
+156,UD Almería,Goalkeeper,4200000.0
+157,UD Almería,Left Winger,17000000.0
+158,UD Almería,Left-Back,6500000.0
+159,UD Almería,Right Winger,6000000.0
+160,UD Almería,Right-Back,7700000.0
+161,UD Almería,Second Striker,1500000.0
+162,Valencia CF,Central Midfield,62000000.0
+163,Valencia CF,Centre-Back,18000000.0
+164,Valencia CF,Centre-Forward,19000000.0
+165,Valencia CF,Defensive Midfield,25000000.0
+166,Valencia CF,Goalkeeper,22700000.0
+167,Valencia CF,Left Winger,27000000.0
+168,Valencia CF,Left-Back,42500000.0
+169,Valencia CF,Right Winger,6000000.0
+170,Valencia CF,Right-Back,15000000.0
+171,Villarreal CF,Central Midfield,48000000.0
+172,Villarreal CF,Centre-Back,67000000.0
+173,Villarreal CF,Centre-Forward,94000000.0
+174,Villarreal CF,Defensive Midfield,8000000.0
+175,Villarreal CF,Goalkeeper,7700000.0
+176,Villarreal CF,Left Winger,10000000.0
+177,Villarreal CF,Left-Back,28000000.0
+178,Villarreal CF,Right Winger,70000000.0
+179,Villarreal CF,Right-Back,27500000.0
