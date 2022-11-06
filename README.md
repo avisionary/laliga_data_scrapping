@@ -29,5 +29,8 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 ## Final Query
-The final objective of the project was to write a query that gets the total market value of each team in each position. For this two paths have been taken. This can be done either with python or SQL depending on the teams need. For the sake of this project, both the ways have been implemented and can be found 
+The final objective of the project was to write a query that gets the total market value of each team in each position.This can be done either with python or SQL depending on the teams need. For the sake of this project, python has been chosen to execute this query with the sole reason being to be able to visualize our results later. The query and the setup required before can be found in [this Jupiter notebook](codes/final_query.ipynb). The results of the qurey have been saved in a csv file and can be found [here](data/final_query.csv). <br>
+After executing this query, the obvious instinct is to analyse the results. The nature of our data forces us to check what position and what team has the highest total market value. This is obviously biased as positions like midfield and forward require more players to play than let's say Goalkeeper. Since there are more players, the total market value would be more for these positions. But it will be interesting to see which team's which position has highest market value. The following plot (which can also be found [here](plots/highest_market_values.html)) gives us a better insight :
+![visualization](plots/visualization.png)
+We can see in the visual that the highest market value is of Barcelona in the Centre Midfield position, followed by the same team in Centre Back position. This is a testimony of the lavish spending by the La Liga giants in the past few years. The nest best is Real Madrid in several positions which is no brainer.
 
