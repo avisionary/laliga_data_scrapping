@@ -69,7 +69,7 @@ class TeamScrapper:
                 team_name = teamName.find('a')['title']
                 teamNames.append(team_name)
 
-    def __get_team_stats(self,pageSoup,squad_size,avg_age,foreigners):
+    def get_team_stats(self,pageSoup,squad_size,avg_age,foreigners):
         '''Takes in the HTML of the URl, appends team squad size, average age, number of foreigners to the specific list'''
         counter = -1
         for x in pageSoup.findAll('td', class_ = 'zentriert'):
@@ -88,7 +88,7 @@ class TeamScrapper:
         foreigners.pop(0)
 
 
-    def __get_tmv(self,pageSoup,tmv):
+    def get_tmv(self,pageSoup,tmv):
         '''Takes in the HTML of the URl, appends total market value to the specific list'''
         counter = 0
         for x in pageSoup.findAll('td', class_ = 'rechts'):
@@ -100,7 +100,7 @@ class TeamScrapper:
         league_tmv = tmv.pop(0)
 
 
-    def __to_df(self):
+    def to_df(self):
         '''Takes in all the list elements, and turns them to a pandas dataframe'''
         # dictionary of lists 
         dict = {'team': self.team, 
@@ -111,7 +111,7 @@ class TeamScrapper:
         self.teams_df = pd.DataFrame(dict)
 
 
-    def __to_csv(self,location):
+    def to_csv(self,location):
         '''Takes in a location, and saves the dataframe to that location'''
         self.teams_df.to_csv(location,index = False)
 

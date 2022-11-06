@@ -1,0 +1,144 @@
+\hypertarget{classteam__scrapper_1_1_team_scrapper}{}\doxysection{team\+\_\+scrapper.\+Team\+Scrapper Class Reference}
+\label{classteam__scrapper_1_1_team_scrapper}\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a5f852357e76645d02b8a933b7c362b4b}\label{classteam__scrapper_1_1_team_scrapper_a5f852357e76645d02b8a933b7c362b4b}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, season, team=\mbox{[}$\,$\mbox{]}, team\+URL=\mbox{[}$\,$\mbox{]}, squad\+\_\+size=\mbox{[}$\,$\mbox{]}, avg\+\_\+age=\mbox{[}$\,$\mbox{]}, foreigners=\mbox{[}$\,$\mbox{]}, tmv=\mbox{[}$\,$\mbox{]})
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_ab83a4edaafc14df3820f8b30a44bf834}{get\+\_\+page}} (self, page)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_adc39d062c1690989ce1a5264ad816f5c}{get\+\_\+teams}} (self, page\+Soup, team\+Names, team\+URLs)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_adae1b69fcbd778c38acd43846e236d7a}{get\+\_\+team\+\_\+stats}} (self, page\+Soup, squad\+\_\+size, avg\+\_\+age, foreigners)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_aa7ce9dda653ee4bb22f9e7432501b9be}{get\+\_\+tmv}} (self, page\+Soup, tmv)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_a145cb0ecf9181a4246ff04e685a60437}{to\+\_\+df}} (self)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_a7de182ca14d8573df6079e0c49fc64f6}{to\+\_\+csv}} (self, location)
+\item 
+def \mbox{\hyperlink{classteam__scrapper_1_1_team_scrapper_a1559a9d33c31e743a7308d0b07ff63ff}{use\+\_\+team\+\_\+scrapper}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_abd0a8a79dd3415d16b4716699cd4f0d6}\label{classteam__scrapper_1_1_team_scrapper_abd0a8a79dd3415d16b4716699cd4f0d6}} 
+{\bfseries team}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a6f386fa1cb2559ee2023e9a326c0cd25}\label{classteam__scrapper_1_1_team_scrapper_a6f386fa1cb2559ee2023e9a326c0cd25}} 
+{\bfseries team\+URL}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a3834ca9761b9f0ec277f3d72023ea347}\label{classteam__scrapper_1_1_team_scrapper_a3834ca9761b9f0ec277f3d72023ea347}} 
+{\bfseries squad\+\_\+size}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_aaa1796b3ddfb9574faf4d833ccc00b79}\label{classteam__scrapper_1_1_team_scrapper_aaa1796b3ddfb9574faf4d833ccc00b79}} 
+{\bfseries avg\+\_\+age}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a52533c5d7f4112544f92ec3a800cd658}\label{classteam__scrapper_1_1_team_scrapper_a52533c5d7f4112544f92ec3a800cd658}} 
+{\bfseries foreigners}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_aff1cb084e369703eb495a18e71e0a4fd}\label{classteam__scrapper_1_1_team_scrapper_aff1cb084e369703eb495a18e71e0a4fd}} 
+{\bfseries tmv}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a0a19215c9146ec6a4ff13b5574e1389e}\label{classteam__scrapper_1_1_team_scrapper_a0a19215c9146ec6a4ff13b5574e1389e}} 
+{\bfseries url}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a9c8c499edfa0ffe7d9aea50289d7299c}\label{classteam__scrapper_1_1_team_scrapper_a9c8c499edfa0ffe7d9aea50289d7299c}} 
+{\bfseries season}
+\item 
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a672eb789c0f23730e1f7ddad2d295547}\label{classteam__scrapper_1_1_team_scrapper_a672eb789c0f23730e1f7ddad2d295547}} 
+{\bfseries teams\+\_\+df}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}A class to scrape La Liga team data and store into a dataframe
+
+----------
+Attributes
+----------
+season:str
+    Gets the season for which data needs to be collected
+team: list
+    A list to append team names
+teamURL: list
+    A list to append team URLs
+squad_size: list
+    A list to append squad size of each team
+avg_age: list
+    A list to append average age
+foreigners: list
+    A list to append number of foreigners in a team
+tmv: list
+    A list to append total market values of teams
+
+
+-------
+Methods
+-------
+
+get_page: Uses BeautifulSoup to get HTML page of the URL
+get_teams: Uses the HTML tag td and class hauptlink no-border-links to get all team names
+__get_team_stats: Uses the HTML tag td and class zentriert to get all team stats
+__get_tmv: Uses the HTML tag td and class rechts to get all team stats
+__to_df : Creates a dictonary of all the appended lists and turns it into a pandas DF
+__to_csv : Saves the pandas DF to a csv file in the specified location
+use_team_scrapper : Calls the methods in a desired order to use the scrapper\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_ab83a4edaafc14df3820f8b30a44bf834}\label{classteam__scrapper_1_1_team_scrapper_ab83a4edaafc14df3820f8b30a44bf834}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!get\_page@{get\_page}}
+\index{get\_page@{get\_page}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{get\_page()}{get\_page()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+get\+\_\+page (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{page }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in the URL, returns HTMl of that URL\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_adae1b69fcbd778c38acd43846e236d7a}\label{classteam__scrapper_1_1_team_scrapper_adae1b69fcbd778c38acd43846e236d7a}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!get\_team\_stats@{get\_team\_stats}}
+\index{get\_team\_stats@{get\_team\_stats}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{get\_team\_stats()}{get\_team\_stats()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+get\+\_\+team\+\_\+stats (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{page\+Soup,  }\item[{}]{squad\+\_\+size,  }\item[{}]{avg\+\_\+age,  }\item[{}]{foreigners }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in the HTML of the URl, appends team squad size, average age, number of foreigners to the specific list\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_adc39d062c1690989ce1a5264ad816f5c}\label{classteam__scrapper_1_1_team_scrapper_adc39d062c1690989ce1a5264ad816f5c}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!get\_teams@{get\_teams}}
+\index{get\_teams@{get\_teams}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{get\_teams()}{get\_teams()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+get\+\_\+teams (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{page\+Soup,  }\item[{}]{team\+Names,  }\item[{}]{team\+URLs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in the HTML of the URl, appends team name and URL to the specific list\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_aa7ce9dda653ee4bb22f9e7432501b9be}\label{classteam__scrapper_1_1_team_scrapper_aa7ce9dda653ee4bb22f9e7432501b9be}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!get\_tmv@{get\_tmv}}
+\index{get\_tmv@{get\_tmv}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{get\_tmv()}{get\_tmv()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+get\+\_\+tmv (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{page\+Soup,  }\item[{}]{tmv }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in the HTML of the URl, appends total market value to the specific list\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a7de182ca14d8573df6079e0c49fc64f6}\label{classteam__scrapper_1_1_team_scrapper_a7de182ca14d8573df6079e0c49fc64f6}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!to\_csv@{to\_csv}}
+\index{to\_csv@{to\_csv}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{to\_csv()}{to\_csv()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+to\+\_\+csv (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{location }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in a location, and saves the dataframe to that location\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a145cb0ecf9181a4246ff04e685a60437}\label{classteam__scrapper_1_1_team_scrapper_a145cb0ecf9181a4246ff04e685a60437}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!to\_df@{to\_df}}
+\index{to\_df@{to\_df}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{to\_df()}{to\_df()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+to\+\_\+df (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Takes in all the list elements, and turns them to a pandas dataframe\end{DoxyVerb}
+ \mbox{\Hypertarget{classteam__scrapper_1_1_team_scrapper_a1559a9d33c31e743a7308d0b07ff63ff}\label{classteam__scrapper_1_1_team_scrapper_a1559a9d33c31e743a7308d0b07ff63ff}} 
+\index{team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}!use\_team\_scrapper@{use\_team\_scrapper}}
+\index{use\_team\_scrapper@{use\_team\_scrapper}!team\_scrapper.TeamScrapper@{team\_scrapper.TeamScrapper}}
+\doxysubsubsection{\texorpdfstring{use\_team\_scrapper()}{use\_team\_scrapper()}}
+{\footnotesize\ttfamily def team\+\_\+scrapper.\+Team\+Scrapper.\+use\+\_\+team\+\_\+scrapper (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calls all the methods in the desired order, call this function on the class instantiation\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+team\+\_\+scrapper.\+py\end{DoxyCompactItemize}

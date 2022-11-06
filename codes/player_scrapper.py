@@ -80,7 +80,7 @@ class PlayerScrapper:
         return temp
 
 
-    def __get_players(self,pageSoup,players,position):
+    def get_players(self,pageSoup,players,position):
         '''Takes in the HTML of the URL, appends player name and position to the specific list'''
         counter = 0
         for test in pageSoup.findAll('td', class_ = "posrela"):
@@ -99,7 +99,7 @@ class PlayerScrapper:
                     players.append(player)
 
 
-    def __get_player_stats(self,pageSoup,shirt_number,dob,age,height,foot,joined,contract):
+    def get_player_stats(self,pageSoup,shirt_number,dob,age,height,foot,joined,contract):
         '''Takes in the HTML of the URL, appends player stats to desired lists'''
         counter = 0
         for x in pageSoup.findAll('table',class_ = "items"):
@@ -138,7 +138,7 @@ class PlayerScrapper:
 
 
     
-    def __get_mv(self,pageSoup,mv,teams,team):
+    def get_mv(self,pageSoup,mv,teams,team):
         '''Takes in the HTML of the URL, appends market value of the player to desired list'''
         for test in pageSoup.findAll('td',class_ = "rechts hauptlink"):
             if test != "":
@@ -148,7 +148,7 @@ class PlayerScrapper:
 
 
 
-    def __to_df(self):
+    def to_df(self):
         '''Takes in the HTML of the URl, appends team name and URL to the specific list'''
         # dictionary of lists 
         dict = {"player" : self.players,
@@ -167,7 +167,7 @@ class PlayerScrapper:
 
 
 
-    def __to_csv(self,location):
+    def to_csv(self,location):
         '''Takes in a location, and saves the dataframe to that location'''
         self.players_df.to_csv(location,index = False)
 
@@ -181,8 +181,8 @@ class PlayerScrapper:
             url = self.teamURL[i]
             url2 = self.set_url(url)
             pageSoup = self.team_scrapper.get_page(url2)
-            self.__get_players(pageSoup,self.players,self.position)
-            self.__get_player_stats(pageSoup,self.shirt_number,self.dob,self.age,self.height,self.foot,self.joined,self.contract)
-            self.__get_mv(pageSoup,self.mv,self.teams,team)
-        self.__to_df()
-        self.__to_csv(location="./data/players.csv")
+            self.get_players(pageSoup,self.players,self.position)
+            self.get_player_stats(pageSoup,self.shirt_number,self.dob,self.age,self.height,self.foot,self.joined,self.contract)
+            self.get_mv(pageSoup,self.mv,self.teams,team)
+        self.to_df()
+        self.to_csv(location="./data/players.csv")
