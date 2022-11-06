@@ -28,6 +28,10 @@ $ python3.10 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
+
+After setting up the virtual environment, the first task is to run the [main](codes/main.py) file which instantiates both the scrappers and runs them. The documentation of both the scrapper classes can be seen in [this index file](codes/html/index.html). This report has been generated using doxygen which uses doc strings to convert doc string comments into a presentabel report. This report can be used to understand about member methods and membor attributes.
+
+
 ## Final Query
 The final objective of the project was to write a query that gets the total market value of each team in each position.This can be done either with python or SQL depending on the teams need. For the sake of this project, python has been chosen to execute this query with the sole reason being to be able to visualize our results later. The query and the setup required before can be found in [this Jupiter notebook](codes/final_query.ipynb). The results of the qurey have been saved in a csv file and can be found [here](data/final_query.csv). <br>
 After executing this query, the obvious instinct is to analyse the results. The nature of our data forces us to check what position and what team has the highest total market value. This is obviously biased as positions like midfield and forward require more players to play than let's say Goalkeeper. Since there are more players, the total market value would be more for these positions. But it will be interesting to see which team's which position has highest market value. The following plot (which can also be found [here](plots/highest_market_values.html)) gives us a better insight :
