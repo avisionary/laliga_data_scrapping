@@ -22,7 +22,7 @@ class TeamScrapper:
         pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
         return pageSoup
 
-    def __get_teams(self,pageSoup,teamNames,teamURLs):
+    def get_teams(self,pageSoup,teamNames,teamURLs):
         for teamName in pageSoup.findAll('td', class_ = 'hauptlink no-border-links'):
             if teamName.text != '':
                 print(teamName.text)
@@ -68,29 +68,17 @@ class TeamScrapper:
                     'avg_age': self.avg_age,
                     'foreigners': self.foreigners,
                     'total_market_value':self.tmv} 
-        self.df = pd.DataFrame(dict)
+        self.teams_df = pd.DataFrame(dict)
 
 
-    def use_scrapper(self):
+    def __to_csv(self,location):
+        self.teams_df.to_csv(location,index = False)
+
+
+    def use_team_scrapper(self):
         pageSoup = self.get_page(self.url)
-        self.__get_teams(pageSoup,self.team,self.teamURL)
+        self.get_teams(pageSoup,self.team,self.teamURL)
         self.__get_team_stats(pageSoup,self.squad_size,self.avg_age,self.foreigners)
         self.__get_tmv(pageSoup,self.tmv)
         self.__to_df()
-
-
-
-
-s = TeamScrapper('2022')
-s.use_scrapper()
-print(s.df)
-
-
-    
-        
-        
-
-
-
-
-
+        self.__to_csv(location="./data/teams.csv")
